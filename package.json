@@ -1,0 +1,47 @@
+{
+  "name": "wordcloud-api",
+  "version": "2.0.0",
+  "description": "Node.js API for generating beautiful WordCloud images with multiple rendering options",
+  "main": "app-main.js",
+  "scripts": {
+    "start": "node app-main.js",
+    "start:advanced": "node app.js",
+    "dev": "nodemon app-main.js",
+    "test": "node test.js",
+    "demo": "start examples\\demo.html"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "puppeteer": "^21.5.2"
+  },
+  "optionalDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-wordcloud": "^1.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "wordcloud",
+    "api",
+    "visualization",
+    "text-analysis",
+    "image-generation",
+    "d3",
+    "puppeteer",
+    "node"
+  ],
+  "author": "Simon Rundell",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SimonRundell/WordCloudAPI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SimonRundell/WordCloudAPI/issues"
+  },
+  "homepage": "https://github.com/SimonRundell/WordCloudAPI#readme"
+}
